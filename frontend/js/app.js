@@ -4,7 +4,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
 
-    fetch('http://localhost:8080/submitForm', {
+    fetch('http://localhost:8090/submitForm', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
